@@ -1,0 +1,22 @@
+# Template file for 'python3-astropy'
+pkgname=python3-astropy
+version=6.1.0
+revision=1
+#archs="i686 x86_64"
+#build_wrksrc=
+build_style=python3-module
+#configure_args=""
+#make_build_args=""
+#make_install_args=""
+#conf_files=""
+#make_dirs="/var/log/dir 0755 root root"
+hostmakedepends=""
+makedepends="python3-setuptools python3-setuptools_scm python3-numpy python3-packaging python3-Cython python3-extension-helpers python3-devel"
+depends="python3-numpy python3-pyerfa python3-yaml python3-packaging python3-scipy python3-matplotlib"
+short_desc="astropy"
+maintainer="Ian J. Watson <ian.james.watson@cern.ch>"
+license="MIT"
+homepage="https://www.astropy.org/"
+#changelog=""
+distfiles="${PYPI_SITE}/a/astropy/astropy-${version}.tar.gz"
+checksum=6c3b915f10b1576190730ddce45f6245f9927dda3de6e3f692db45779708950f

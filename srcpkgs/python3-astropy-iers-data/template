@@ -1,0 +1,22 @@
+# Template file for 'python3-astropy-iers-data'
+pkgname=python3-astropy-iers-data
+version=0.2024.5.27.0.30.8 
+revision=1
+#archs="i686 x86_64"
+#build_wrksrc=
+build_style=python3-pep517
+hostmakedepends="python3-setuptools python3-wheel"
+#configure_args=""
+#make_build_args=""
+#make_install_args=""
+#conf_files=""
+#make_dirs="/var/log/dir 0755 root root"
+makedepends="python3-setuptools python3-setuptools_scm python3-wheel"
+depends=""
+short_desc="astropy-iers-data"
+maintainer="Ian J. Watson <ian.james.watson@cern.ch>"
+license="MIT"
+homepage="https://www.astropy-iers-data.org/"
+#changelog=""
+distfiles="${PYPI_SITE}/a/astropy_iers_data/astropy_iers_data-${version}.tar.gz"
+checksum=65cd7239571d8f73fe78fc1b21bf5b2e184ff0892abaa15364c54d016ec5e0bf
